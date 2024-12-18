@@ -1,0 +1,97 @@
+/* Container Principal */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, cyan, yellow);
+}
+
+/* Container de Login */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+/* Container de Inputs */
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Container de Botão */
+button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+/* Estilo para o texto de link */
+.link-text {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.link-text a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.link-text a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+/* Estilo para textarea */
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    resize: none;
+    border-radius: 10px;
+}
+
+/* Estilo para os inputs de radio */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Alinhamento e espaçamento dos rótulos de radio */
+label {
+    font-size: 16px;
+    color: white;
+}
+
+/* Espaçamento entre as opções de resposta */
+form input, form label {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.home-container {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
