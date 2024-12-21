@@ -13,7 +13,7 @@ class AuthController extends Controller
 
     public function index()
     {
-        return view('auth.login'); // Certifique-se de que a view 'auth.login' existe
+        return view('auth.index'); // Certifique-se de que a view 'auth.login' existe
     }
     // Exibe a página de cadastro
     public function cadastroForm()
