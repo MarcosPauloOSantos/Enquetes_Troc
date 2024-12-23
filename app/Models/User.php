@@ -10,15 +10,17 @@ class User extends Authenticatable
     use Notifiable;
 
     protected $fillable = [
-        'name', // Para compatibilidade com o Laravel
-        'nome', // Campo adicional usado na sua tabela
-        'email',
-        'password',
+        'name',   
+        'email',   
+        'password', 
     ];
 
     protected $hidden = [
-        'password',
-        'remember_token',
+        'password', 'remember_token',
+    ];
+
+    protected $casts = [
+        'email_verified_at' => 'datetime',
     ];
 }
 
